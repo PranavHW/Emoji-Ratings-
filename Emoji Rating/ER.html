@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="ER.css">
+</head>
+<body>
+
+  <h1>Rate this Website/Product</h1>
+
+  <div class="rating-container" id="rating-container">
+    <span class="emoji" onclick="setRating(1)">😡</span>
+    <span class="emoji" onclick="setRating(2)">😕</span>
+    <span class="emoji" onclick="setRating(3)">😐</span>
+    <span class="emoji" onclick="setRating(4)">😊</span>
+    <span class="emoji" onclick="setRating(5)">😍</span>
+  </div>
+
+  <p id="selected-rating">Selected Rating: None</p>
+
+  <script src="ER.js"></script>
+</body>
+</html>

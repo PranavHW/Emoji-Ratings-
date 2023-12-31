@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+  }
+  
+  .rating-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 24px;
+  }
+  
+  .emoji {
+    cursor: pointer;
+  }
+  
